@@ -7,7 +7,7 @@ metadata:
   namespace: bgd
 spec:
   port:
-    targetPort: 8080
+    targetPort: 8088
   to:
     kind: Service
     name: bgd
